@@ -1,0 +1,359 @@
+@media only screen and (min-width: 768px) {
+
+    footer{
+        width: 100%;
+        height: auto;
+        background-color: rgb(245, 245, 247);
+        position: relative;
+        
+    }
+    .f-content{
+        margin: auto;
+        /* text-align: center; */
+        /* background-color: rosybrown; */
+        min-width: 325px;
+        max-width: 1010px;
+        padding:15px ;
+        font-size: 13px;
+        
+        color: rgba(114, 114, 114, 0.8);
+    }
+    
+    .list-up li,.list-down li {
+        /* color: darkblue; */
+        /* background-color: rgb(245, 245, 247); */
+        /* background-color: rgb(0, 245, 247); */
+        padding: 3px 0px;
+        /* margin: auto; */
+        
+        border: none;
+        
+        text-decoration: none;
+    }
+    .list-up ,.list-down  {
+        /* color: darkblue; */
+        /* background-color: rgb(245, 245, 247); */
+        /* background-color: rgb(0, 245, 247); */
+        /* margin: auto; */
+        /* flex-basis: 100px;    */
+        /* max-width: 200px; */
+        padding: auto;
+        /* min-width: 100px; */
+        flex-shrink: 0;
+    }
+    
+    
+    .f-list{
+        /* background-color: red; */
+        
+        /* flex-direction: column; */
+        /* flex-wrap: wrap; */
+        display: flex;
+        flex-flow: column wrap;
+        /* justify-content: stretch; */
+        /* justify-content: initial; */
+        /* align-items: flex-start; */
+        height: 430px;
+        padding: 5px 0px;
+        font-weight: 400;
+    
+}
+.f-plus ,.f-plusRotate{
+    display: none;
+}
+.list-head{
+    font-weight: 500;
+    font-size: 13px;
+    color:rgb(0, 0, 0);
+}
+
+.last-div p:nth-last-of-type(4){
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+.last-div p:nth-last-of-type(3){
+    /* padding-bottom: 10px; */
+    /* display: inline-block; */
+    float: right;
+    /* border-bottom: 1px solid rgba(0, 0, 0, .2); */
+    position: relative;
+    bottom: 10px;
+}
+.last-div p:nth-last-of-type(2){
+    /* padding-bottom: 10px; */
+    /* display: inline-block; */
+    float: left;
+    position: relative;
+    bottom: 10px;
+    /* border-bottom: 1px solid rgba(0, 0, 0, .2); */
+}
+.last-div p:nth-last-of-type(1){
+    /* background-color: rosybrown; */
+    /* padding-bottom: 10px; */
+    position: relative;
+    bottom: 10px;
+    display: inline-block;
+    margin: auto;
+    padding-left:  20px;
+    word-spacing: 1px;
+    /* float: right; */
+    /* border-bottom: 1px solid rgba(0, 0, 0, .2); */
+}
+.last-div :nth-child(4) a{
+    font-size: 14px;
+    color: rgba(0, 0, 0, .6);
+}
+.countryLogo{
+    background-image: url(../../images/usLogo.png);
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    position: relative;
+    background-position: -10px 0px;
+    background-size: 50px 20px;        
+    display: inline-block;
+}
+.logoText{
+    position: relative;
+    left: 7px;
+    font-size: 14px;
+    bottom: 5px;
+    color: rgba(0, 0, 0, .7);
+}
+.list-up li a :hover,.list-down li a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    /* color: green; */
+}
+.list-up li a ,.list-down li a {
+    color: rgba(0, 0, 0, .7);
+}
+}
+
+@media only screen and (max-width: 767px) {
+    footer{
+
+        /* max-width: 100%; */
+        max-width: 2560px;
+        height: auto;
+        background-color: rgb(245, 245, 247);
+        position: relative;
+    }
+    .f-content{
+        margin: auto;
+        /* text-align: center; */
+        /* background-color: rosybrown; */
+        min-width: 325px;
+        max-width: 1000px;
+        padding:15px ;
+        font-size: 13px;
+        
+        color: rgba(114, 114, 114, 0.8);
+    }
+    .f-plus{
+        font-size: 15px;
+        transition: .2s;
+        float: right;
+        transform: rotate(0deg);
+        font-weight: bold;
+    }
+    .f-plusRotate{
+        font-weight: bold;
+        font-size: 15px;
+        float: right;
+        transition: .3s;
+        transform: rotate(45deg);
+    }
+    .list-div{
+        max-width: 1150px;
+        width: 100%;
+        /* background-color: cyan; */
+        /* padding:10px 5px; */
+        border-bottom: 1px solid rgba(0,0,0,.25);
+    }
+    .list-head{
+        
+        position: relative;
+        width: 100%;
+        font-size: 13px;
+        padding-right: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        /* margin-bottom: 10px; */
+        height: 35px;
+        line-height: 35px;
+        color: rgba(0,0,0,.7);
+        /* background-color: rgb(245, 245, 247); */
+        /* top: 5px; */
+        /* background-color: darkgreen; */
+        cursor: pointer;
+        z-index:1;
+    }
+    .list-up{
+        transition: .1s;
+        opacity: 0;
+        /* background-color: darkblue; */
+        position: relative;
+        bottom: 30px;
+        z-index: 0;
+        max-height: 0px;
+        overflow: hidden;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+    }
+
+    .list-down{
+        transition: .2s ease-in-out,padding 0s;
+        opacity: 1;
+        /* background-color: red; */
+        position: relative;
+        bottom: 0px;
+        z-index: 0;
+        max-height: 400px;
+        /* height: 270px; */
+        overflow: hidden;
+        padding-left: 10px;
+        margin-bottom: 5px;
+    }
+    .list-up li,.list-down li {
+        /* background-color: rgb(245, 245, 247); */
+        /* background-color: rgb(0, 245, 247); */
+        /* padding: 0px;
+        margin: 0px; */
+        border: none;
+
+            
+        text-decoration: none;
+
+            padding: 3px 0px;
+            /* margin: auto; */
+        }
+        
+
+
+    .countryLogo{
+        background-image: url(../../images/usLogo.png);
+        width: 18px;
+        height: 18px;
+        border-radius: 100px;
+        position: relative;
+        background-position: -10px 0px;
+        background-size: 50px 20px;        
+        display: inline-block;
+    }
+    .logoText{
+        position: relative;
+        left: 7px;
+        font-size: 14px;
+        bottom: 9px;
+        color: rgba(0, 0, 0, .7);
+    }
+    .last-div :nth-child(1) a {
+        color: rgba(0, 0, 255, .8);
+        cursor: pointer;
+        /* color: blue; */
+        /* background-color: royalblue; */
+    }
+    .last-div :nth-child(1) a :hover{
+        color: saddlebrown;
+        text-decoration: underline;
+    }
+    .last-div{
+        padding-left: 8px;
+        padding-top: 20px;
+    }
+    .last-div :nth-child(1){
+        /* background-color: royalblue; */
+        color: rgba(0, 0, 0, 0.5);
+        /* font-weight: bold; */
+        font-size: 15px;
+        padding: 0px;
+        margin-bottom: 5px;
+    }
+    .last-div :nth-child(2){
+        /* background-color: royalblue; */
+        color: rgba(0, 0, 0, 0.8);
+        /* font-weight: bold; */
+        padding: 0px;
+        margin-bottom: 5px;
+    }
+    .last-div :nth-child(3){
+        /* background-color: royalblue; */
+        color: rgba(0, 0, 0, 0.5);
+        word-spacing: -1px;
+        font-weight: 500;
+        font-size: 14px;
+        /* font-weight: bold; */
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .last-div :nth-child(4){
+        /* background-color: royalblue; */
+        color: rgba(0, 0, 0, 0.7);
+        /* font-weight: bold; */
+        padding: 0px;
+        margin: 0px;
+        padding-bottom: 10px;
+    }
+    .last-div :nth-child(4) a{
+        font-size: 14px;
+        color: rgba(0, 0, 0, .7);
+    }
+    .list-up li a :hover,.list-down li a:hover {
+        text-decoration: underline;
+        cursor: pointer;
+        /* color: green; */
+    }
+    .list-up li a ,.list-down li a {
+        color: rgba(0, 0, 0, .7);
+    }
+}
+
+@media (min-height: 850px) and (min-width: 2568px) {
+
+
+
+    .f-list{
+        /* background-color: yellow; */
+        position: relative;
+        bottom: 10px;
+        padding-top: 20px;
+        border-top: 1px solid rgba(0, 0, 0, .3);
+        height: 420px;
+    }
+
+    .f-hr{
+        display: none;
+    }
+
+}
+@media (min-height: 850px) and (min-width: 2868px) {
+
+
+
+    .f-list{
+        /* background-color: yellow; */
+        position: relative;
+        bottom: 10px;
+        padding-top: 20px;
+        border-top: 1px solid rgba(0, 0, 0, .3);
+        height: 650px;
+    }
+
+    .list-up,.list-down{
+        width: 165px;
+        padding: 0px;
+        margin-bottom: 20px;
+        /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    }
+
+    .f-hr{
+        display: none;
+    }
+
+}
+       
