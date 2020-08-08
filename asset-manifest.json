@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/AppleWebsiteHomePage2020-May/static/css/main.dfbbd7d0.chunk.css",
+    "main.js": "/AppleWebsiteHomePage2020-May/static/js/main.ec84422b.chunk.js",
+    "main.js.map": "/AppleWebsiteHomePage2020-May/static/js/main.ec84422b.chunk.js.map",
+    "runtime-main.js": "/AppleWebsiteHomePage2020-May/static/js/runtime-main.9d9822a3.js",
+    "runtime-main.js.map": "/AppleWebsiteHomePage2020-May/static/js/runtime-main.9d9822a3.js.map",
+    "static/css/2.89f067aa.chunk.css": "/AppleWebsiteHomePage2020-May/static/css/2.89f067aa.chunk.css",
+    "static/js/2.ea114ab3.chunk.js": "/AppleWebsiteHomePage2020-May/static/js/2.ea114ab3.chunk.js",
+    "static/js/2.ea114ab3.chunk.js.map": "/AppleWebsiteHomePage2020-May/static/js/2.ea114ab3.chunk.js.map",
+    "index.html": "/AppleWebsiteHomePage2020-May/index.html",
+    "precache-manifest.369dba81d2474edfe6aa9f7e357d3e4a.js": "/AppleWebsiteHomePage2020-May/precache-manifest.369dba81d2474edfe6aa9f7e357d3e4a.js",
+    "service-worker.js": "/AppleWebsiteHomePage2020-May/service-worker.js",
+    "static/css/2.89f067aa.chunk.css.map": "/AppleWebsiteHomePage2020-May/static/css/2.89f067aa.chunk.css.map",
+    "static/css/main.dfbbd7d0.chunk.css.map": "/AppleWebsiteHomePage2020-May/static/css/main.dfbbd7d0.chunk.css.map",
+    "static/js/2.ea114ab3.chunk.js.LICENSE.txt": "/AppleWebsiteHomePage2020-May/static/js/2.ea114ab3.chunk.js.LICENSE.txt",
+    "static/media/home.css": "/AppleWebsiteHomePage2020-May/static/media/8.c886bcca.jpg",
+    "static/media/footer.css": "/AppleWebsiteHomePage2020-May/static/media/usLogo.a3aa8630.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9d9822a3.js",
+    "static/css/2.89f067aa.chunk.css",
+    "static/js/2.ea114ab3.chunk.js",
+    "static/css/main.dfbbd7d0.chunk.css",
+    "static/js/main.ec84422b.chunk.js"
+  ]
+}
